@@ -8,4 +8,7 @@ document.querySelector('#corpus-b').addEventListener('click', function () {
 document.querySelector('#corpus-n').addEventListener('click', function () {
 	open('n.jpg', '_self')
 })
+document.querySelector('#corpus-v').addEventListener('click', function () {
+	open('v.jpg', '_self')
+})
 // }
