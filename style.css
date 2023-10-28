@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+svg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+path {
+	cursor: pointer;
+}
+
+.main {
+	overflow: hidden;
+}
+
+@media all and (orientation:portrait) {
+
+		/* стили для портрета */
+	.main {
+	width: 100%;
+	}
+
+	.bs-image{
+		height: auto;
+		width: 100%;
+	}
+}
+
+@media all and (orientation:landscape) {
+
+		/* стили для пейзажа */
+	.main {
+		height: 100% ;
+	}
+
+	.bs-image {
+		height: 100%;
+		width: auto;
+	}
+}
