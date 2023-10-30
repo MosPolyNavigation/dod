@@ -1,14 +1,14 @@
 // function onImgBsLoad(){
 document.querySelector('#corpus-a').addEventListener('click', function () {
-	open('a.jpg', '_self')
+	open('a.png', '_self')
 })
 document.querySelector('#corpus-b').addEventListener('click', function () {
-	open('b.jpg', '_self')
+	open('b.png', '_self')
 })
 document.querySelector('#corpus-n').addEventListener('click', function () {
-	open('n.jpg', '_self')
+	open('n.png', '_self')
 })
 document.querySelector('#corpus-v').addEventListener('click', function () {
-	open('v.jpg', '_self')
+	open('v.png', '_self')
 })
 // }
