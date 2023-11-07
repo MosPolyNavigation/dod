@@ -11,6 +11,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: #202125;
 }
 
 svg {
@@ -57,3 +58,7 @@ path {
 		width: auto;
 	}
 }
+
+/*path {*/
+/*	fill-opacity: .5;*/
+/*}*/
