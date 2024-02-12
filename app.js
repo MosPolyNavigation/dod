@@ -3,7 +3,7 @@ document.querySelector('#corpus-a').addEventListener('click', function () {
 	open('a.png', '_self')
 })
 document.querySelector('#corpus-b').addEventListener('click', function () {
-	open('b.png', '_self')
+	open('a.png', '_self')
 })
 document.querySelector('#corpus-n').addEventListener('click', function () {
 	open('n.png', '_self')
