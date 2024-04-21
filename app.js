@@ -1,6 +1,6 @@
 // function onImgBsLoad(){
 document.querySelector('#corpus-a').addEventListener('click', function () {
-	open('a.html', '_self')
+	open('a.png', '_self')
 })
 document.querySelector('#corpus-b').addEventListener('click', function () {
 	open('b.png', '_self')
