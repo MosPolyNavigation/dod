@@ -3,12 +3,12 @@ document.querySelector('#corpus-a').addEventListener('click', function () {
 	open('a.html', '_self')
 })
 document.querySelector('#corpus-b').addEventListener('click', function () {
-	open('b.png', '_self')
+	open('b.html', '_self')
 })
 document.querySelector('#corpus-n').addEventListener('click', function () {
-	open('n.png', '_self')
+	open('n.html', '_self')
 })
 document.querySelector('#corpus-v').addEventListener('click', function () {
-	open('v.png', '_self')
+	open('v.html', '_self')
 })
 // }
